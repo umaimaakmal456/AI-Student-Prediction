@@ -1,0 +1,28 @@
+# EduPredict AI — Python Dependencies
+# Generated for migration. Install with: pip install -r requirements.txt
+
+# Web Framework
+Flask==3.0.3
+Werkzeug==3.0.3
+
+# Production WSGI Server (required by Render.com — never use Flask dev server in prod)
+gunicorn==22.0.0
+
+# Database ORM
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.36
+
+# PostgreSQL adapter (required for Neon.tech / any PostgreSQL connection)
+psycopg2-binary==2.9.9
+
+# Environment variable management (.env file support)
+python-dotenv==1.0.1
+
+# Machine Learning
+scikit-learn==1.5.1
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+
+# Note Rendering
+Markdown==3.6
